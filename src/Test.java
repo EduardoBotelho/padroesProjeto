@@ -5,6 +5,7 @@ import br.com.dio.gof.startegy.Robo;
 import br.com.dio.gof.startegy.comportamentoAgressivo;
 import br.com.dio.gof.startegy.comportamentoDefensivo;
 import br.com.dio.gof.startegy.comportamentoNormal;
+import facade.Facede;
 
 public class Test {
 
@@ -50,6 +51,10 @@ public class Test {
 					robo.mover();
 					robo.mover();
 					
+					//Facede
+					
+					Facede facede = new Facede();
+					facede.migrarCliente("Eduardo", "1234567");
 					
 				
 
